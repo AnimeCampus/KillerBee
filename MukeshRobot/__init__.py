@@ -40,7 +40,7 @@ if ENV:
     
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
     CASH_API_KEY = os.environ.get("CASH_API_KEY", None)
-    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
+    SQLALCHEMY_DATABASE_URI = os.environ.get("SQLALCHEMY_DATABASE_URI")
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", False))
     EVENT_LOGS = os.environ.get("EVENT_LOGS", None)
     INFOPIC = bool(os.environ.get("INFOPIC", "True"))
@@ -96,7 +96,7 @@ else:
     
     ALLOW_EXCL = Config.ALLOW_EXCL
     CASH_API_KEY = Config.CASH_API_KEY
-    SQLALCHEMY_DATABASE_URI = Config.DATABASE_URL
+    SQLALCHEMY_DATABASE_URI = Config.SQLALCHEMY_DATABASE_URI
     DEL_CMDS = Config.DEL_CMDS
     EVENT_LOGS = Config.EVENT_LOGS
     INFOPIC = Config.INFOPIC
