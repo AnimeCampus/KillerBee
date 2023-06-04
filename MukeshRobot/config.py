@@ -14,21 +14,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = "" # integer value, dont use ""
-    API_HASH = ""
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = "2145093972" # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Mr_sukkun"
-    SUPPORT_CHAT = "the_support_chat"  # Your own group for support, do not add the @
+    API_ID = "19099900" # integer value, dont use ""
+    API_HASH = "2b445de78e5baf012a0793e60bd4fbf5"
+    TOKEN = "6062250856:AAEJhVd4Xa3Fvn8M1OqCGldzhtmP252liwQ"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = "6198858059" # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "SexyNano"
+    SUPPORT_CHAT = "MissCamelliaSupport"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001770762410
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
         -1001770762410
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    MONGO_DB_URI= ""
+    MONGO_DB_URI= "mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority"
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://brmhwhgf:Eq_ZuGoNei_j50ST1iGf7WMymc6IO9vf@hattie.db.elephantsql.com/brmhwhgf"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
