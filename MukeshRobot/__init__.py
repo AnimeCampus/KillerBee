@@ -93,7 +93,7 @@ else:
 
     API_ID = Config.API_ID
     API_HASH = Config.API_HASH
-    ALLOW_CHATS = Config.ALLOW_CHATS
+    
     ALLOW_EXCL = Config.ALLOW_EXCL
     CASH_API_KEY = Config.CASH_API_KEY
     DB_URI = Config.DATABASE_URL
